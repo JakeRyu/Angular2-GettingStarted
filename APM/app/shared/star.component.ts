@@ -15,7 +15,7 @@ export class StarComponent implements OnChanges {
         // changes.prop contains the old and the new value...
         this.starWidth = this.rating * 86 / 5;
 
-        console.log(this.starWidth);
+        //console.log(this.starWidth);
     }
     //changes: SimpleChanges 는 ngOnChanges의 아규먼트이다. 생략해도 문제는 없어 보인다.
 
